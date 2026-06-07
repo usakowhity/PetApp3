@@ -56,9 +56,14 @@ This repository is created early to:
 - Allow users to follow development progress  
 - Prepare for international release
 
+...
+## 🔗 Links
+- [PetApp2 Portable (Japanese)](https://github.com/usakowhity/PetApp2-portable)
+- [Official Website](https://usakowhity.github.io/)
+- [DesktopPetApp (Japanese)](https://usakowhity.github.io/DesktopPetApp/)
+
 ---
 
 ## 📄 License
-
 MIT License  
 Copyright (c) 2026 usakowhity
