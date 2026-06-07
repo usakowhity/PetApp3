@@ -1,4 +1,6 @@
-![PetApp Logo](logo.png)
+<p align="center">
+  <img src="logo.png" width="240">
+</p>
 
 # PetApp3 – Taro Edition (Coming Soon)
 
