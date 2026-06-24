@@ -72,3 +72,62 @@ Prompts can be copied into external AI tools:
 
 ## 📘 4. Folder Structure
 
+```
+PetApp3/
+ ├ assets/
+ ├ core/
+ ├ data/
+ ├ ffmpeg/
+ ├ generated/
+ ├ play/
+ ├ ui/
+ ├ utils/
+ ├ voice/
+ ├ controller.py
+ ├ main.py
+ ├ README.md
+ ├ LICENSE
+ └ CREDITS.md
+```
+
+---
+
+## 📘 5. Related Repositories  
+*(These repositories will be published soon.)*
+
+### 🔹 Portable Edition  
+Standalone version with embedded Python  
+https://github.com/usakowhity/PetApp3-portable
+
+### 🔹 Demo Edition (Taro Edition)  
+https://github.com/usakowhity/PetApp3_taro
+
+---
+
+## 📘 6. GitHub Pages (Official Website)  
+*(Coming soon)*
+
+https://usakowhity.github.io/PetApp3/
+
+---
+
+## 🐰 Support for Rabbit Rescue
+
+The PetApp series supports the activities of the  
+**Rabbit & Human Happiness Support Association**.
+
+Learn more:  
+https://usagi-support.org/
+
+Donation / Support:  
+https://usagi-support.org/?p=453
+
+---
+
+## 📄 License
+
+MIT License  
+Copyright (c) 2026 usakowhity
+```
+
+
