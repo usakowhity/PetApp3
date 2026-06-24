@@ -2,7 +2,7 @@
 Next‑generation AI Virtual Pet Application
 
 <p align="center">
-  <img src="assets/ui/hero3.png" width="70%" alt="PetApp3 Hero Image">
+  <img src="logo.png" width="70%" alt="PetApp3 Logo Image">
 </p>
 
 **PetApp3** is an AI‑powered virtual pet application that generates realistic images and short videos of your own pets—dogs, cats, rabbits, and more—based on 15 emotional and behavioral states.
@@ -19,7 +19,7 @@ Portable and demo editions are distributed in separate repositories.
 
 PetApp3 allows you to:
 
-- Register your pet’s **species**, **appearance**, and **affection gesture**
+- Register your pet’s **species**, **appearance**, and **affection word**
 - Generate optimized English prompts for all 15 states (n1–n3, p1–p12)
 - Use external AI tools (Copilot, Gemini, Pika, etc.) to create images or videos
 - Display your pet’s reactions in real time through the PlayWindow
@@ -34,7 +34,7 @@ PetApp3 focuses on **international usability**, with all prompts and UI elements
 - **Neutral**: n1 Normal, n2 Sit, n3 Sleep  
 - **Positive**: p1–p11 (Play, Down, Paw, Meal, Water, Toilet, Fetch, House, Stand, Bath)  
 - **Special**: **p12 Affection**  
-  - Reacts to your custom “magic word”  
+  - Reacts to your custom **affection word**  
   - Generates a short affectionate video
 
 ### ✔ English Prompt Generator (PromptGenerator_en)
@@ -61,7 +61,7 @@ Prompts can be copied into external AI tools:
 1. Register your pet’s profile:
    - Species  
    - Appearance  
-   - Custom affectionate gesture (p12)  
+   - Custom **affection word** (p12)  
 2. Select a state (n1–n3, p1–p12).  
 3. PetApp3 generates an English prompt tailored to your pet.  
 4. Copy the prompt into your preferred AI tool to generate an image or video.  
@@ -92,10 +92,11 @@ PetApp3/
 
 ---
 
-## 📘 5. Related Repositories
+## 📘 5. Related Repositories  
+*(These repositories will be published soon.)*
 
 ### 🔹 Portable Edition  
-(Standalone version with embedded Python)  
+Standalone version with embedded Python  
 https://github.com/usakowhity/PetApp3-portable
 
 ### 🔹 Demo Edition (Taro Edition)  
@@ -103,15 +104,16 @@ https://github.com/usakowhity/PetApp3_taro
 
 ---
 
-## 📘 6. GitHub Pages (Official Website)
+## 📘 6. GitHub Pages (Official Website)  
+*(Coming soon)*
 
-The official PetApp3 website is published via GitHub Pages:
+The official PetApp3 website will be published via GitHub Pages:
 
 ```
 [https://usakowhity.github.io/PetApp3/](https://usakowhity.github.io/PetApp3/)
 ```
 
-The site includes:
+The site will include:
 - Overview  
 - Features  
 - Screenshots  
