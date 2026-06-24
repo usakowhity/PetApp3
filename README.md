@@ -2,7 +2,7 @@
 Next‑generation AI Virtual Pet Application
 
 <p align="center">
-  <img src="logo.png" width="70%" alt="PetApp3 Logo Image">
+  <img src="logo.png" width="45%" alt="PetApp3 Logo Image">
 </p>
 
 **PetApp3** is an AI‑powered virtual pet application that generates realistic images and short videos of your own pets—dogs, cats, rabbits, and more—based on 15 emotional and behavioral states.
