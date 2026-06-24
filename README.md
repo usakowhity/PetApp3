@@ -1,69 +1,140 @@
+# 🐾 PetApp3  
+Next‑generation AI Virtual Pet Application
+
 <p align="center">
-  <img src="logo.png" width="240">
+  <img src="assets/ui/hero3.png" width="70%" alt="PetApp3 Hero Image">
 </p>
 
-# PetApp3 – Taro Edition (Coming Soon)
+**PetApp3** is an AI‑powered virtual pet application that generates realistic images and short videos of your own pets—dogs, cats, rabbits, and more—based on 15 emotional and behavioral states.
 
-PetApp3 is the next-generation AI desktop pet application designed for the global audience.  
-It inherits the friendly spirit of **PetApp2 Portable** and expands its features for English-speaking users.
+This version introduces a major upgrade:  
+**English prompt generation with first‑person perspective**, powered by the new **PromptGenerator_en** module.
 
-This project is currently in the planning and early prototyping stage.
-
----
-
-## 🌍 About PetApp3
-
-PetApp3 aims to bring an emotionally responsive AI pet experience to English-speaking users.  
-It will include:
-
-- Real-time reactions to **voice** and **facial expressions**
-- Support for **dogs, cats, and rabbits**
-- **15 gesture states** (n1–n3, p1–p12), inherited from PetApp2
-- AI image/video generation guide  
-  (Gemini / Copilot / Pika)
-- Automatic prompt generation based on the pet’s profile  
-  (name, breed, color, ears, tail, patterns, etc.)
-- Fully portable (no installation required)
-- Windows 10/11 support
+PetApp3 is the core project of the PetApp3 series.  
+Portable and demo editions are distributed in separate repositories.
 
 ---
 
-## 🐾 Development Status
+## 📘 1. Overview
 
-| Feature | Status |
-|----------|--------|
-| Concept design | ✅ In progress |
-| English UI/UX | 🕓 Planned |
-| AI prompt generator (English) | 🕓 Planned |
-| Voice recognition (Whisper) | 🕓 Planned |
-| Facial expression detection | 🕓 Planned |
-| Demo pet “Taro” (dog) | 🕓 Planned |
+PetApp3 allows you to:
 
----
+- Register your pet’s **species**, **appearance**, and **affection gesture**
+- Generate optimized English prompts for all 15 states (n1–n3, p1–p12)
+- Use external AI tools (Copilot, Gemini, Pika, etc.) to create images or videos
+- Display your pet’s reactions in real time through the PlayWindow
 
-## 📅 Release Schedule
-
-A public prototype is planned after the completion of PetApp2 distribution and documentation.
+PetApp3 focuses on **international usability**, with all prompts and UI elements designed for English-speaking users.
 
 ---
 
-## 📌 Repository Purpose
+## 📘 2. Key Features
 
-This repository is created early to:
+### ✔ 15 Pet States (n1–n3, p1–p12)
+- **Neutral**: n1 Normal, n2 Sit, n3 Sleep  
+- **Positive**: p1–p11 (Play, Down, Paw, Meal, Water, Toilet, Fetch, House, Stand, Bath)  
+- **Special**: **p12 Affection**  
+  - Reacts to your custom “magic word”  
+  - Generates a short affectionate video
 
-- Reserve the project name  
-- Provide an official landing page for future updates  
-- Allow users to follow development progress  
-- Prepare for international release
+### ✔ English Prompt Generator (PromptGenerator_en)
+- Generates natural English prompts for all states  
+- Uses **first‑person perspective (my / me)**  
+- p2 Joy is **species‑specific** (dog / cat / rabbit)  
+- p12 Affection produces a **video prompt** with scene, mood, and camera details
 
-...
-## 🔗 Links
-- [PetApp2 Portable (Japanese)](https://github.com/usakowhity/PetApp2-portable)
-- [Official Website](https://usakowhity.github.io/)
-- [DesktopPetApp (Japanese)](https://usakowhity.github.io/DesktopPetApp/)
+### ✔ AI Image/Video Generation Support
+Prompts can be copied into external AI tools:
+- Copilot Image / Video  
+- Gemini  
+- Pika  
+- Runway (optional)
+
+### ✔ Modular Architecture
+- Clear separation of UI, core logic, prompt generation, and data handling  
+- Easy to extend for future species or states
+
+---
+
+## 📘 3. How It Works
+
+1. Register your pet’s profile:
+   - Species  
+   - Appearance  
+   - Custom affectionate gesture (p12)  
+2. Select a state (n1–n3, p1–p12).  
+3. PetApp3 generates an English prompt tailored to your pet.  
+4. Copy the prompt into your preferred AI tool to generate an image or video.  
+5. Assign the generated media to each state.  
+6. The PlayWindow displays your pet reacting in real time.
+
+---
+
+## 📘 4. Folder Structure
+
+```
+PetApp3/
+ ├ assets/
+ ├ core/
+ ├ data/
+ ├ ffmpeg/
+ ├ generated/
+ ├ play/
+ ├ ui/
+ ├ utils/
+ ├ voice/
+ ├ controller.py
+ ├ main.py
+ ├ README.md
+ ├ LICENSE
+ └ CREDITS.md
+```
+
+---
+
+## 📘 5. Related Repositories
+
+### 🔹 Portable Edition  
+(Standalone version with embedded Python)  
+https://github.com/usakowhity/PetApp3-portable
+
+### 🔹 Demo Edition (Taro Edition)  
+https://github.com/usakowhity/PetApp3_taro
+
+---
+
+## 📘 6. GitHub Pages (Official Website)
+
+The official PetApp3 website is published via GitHub Pages:
+
+```
+[https://usakowhity.github.io/PetApp3/](https://usakowhity.github.io/PetApp3/)
+```
+
+The site includes:
+- Overview  
+- Features  
+- Screenshots  
+- Download links  
+- Documentation  
+
+---
+
+## 🐰 Support for Rabbit Rescue
+
+The PetApp series supports the activities of the  
+**Rabbit & Human Happiness Support Association**.
+
+Learn more:  
+https://usagi-support.org/
+
+Donation / Support:  
+https://usagi-support.org/?p=453
 
 ---
 
 ## 📄 License
+
 MIT License  
 Copyright (c) 2026 usakowhity
+```
