@@ -93,19 +93,19 @@ PetApp3/
 ---
 
 ## 📘 5. Related Repositories  
-*(These repositories will be published soon.)*
+*(Official releases are now available.)*
 
 ### 🔹 Portable Edition  
 Standalone version with embedded Python  
 https://github.com/usakowhity/PetApp3-portable
 
 ### 🔹 Demo Edition (Taro Edition)  
-https://github.com/usakowhity/PetApp3_taro
+Pre‑configured demo version featuring “Taro”  
+https://github.com/usakowhity/PetApp3-taro
 
 ---
 
-## 📘 6. GitHub Pages (Official Website)  
-*(Coming soon)*
+## 📘 6. GitHub Pages (Official Website)
 
 https://usakowhity.github.io/PetApp3/
 
@@ -130,4 +130,5 @@ MIT License
 Copyright (c) 2026 usakowhity
 ```
 
+---
 
